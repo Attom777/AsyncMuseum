@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AsyncMuseum - Accueil</title>
     <link href="/css/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 font-sans">
 <header class="bg-blue-600 text-white shadow-lg">
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="/" class="text-2xl font-bold">AsyncMuseum</a>
+        <a href="/" class="flex items-center">
+            <img href="#accueil" src="/img/logo.png" alt="AsyncMuseum Logo" class="h-10 w-auto mr-3">
+            <span class="text-2xl font-bold">AsyncMuseum</span>
+        </a>
         <ul class="hidden md:flex space-x-6">
             <li><a href="#accueil" class="hover:text-blue-200 transition">Accueil</a></li>
             <li><a href="collections.html" class="hover:text-blue-200 transition">Collections</a></li>
@@ -48,16 +52,48 @@
         <h2 class="text-3xl font-bold mb-4">Nos Collections</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <img src="/images/collection1.jpg" alt="Collection 1" class="w-full h-48 object-cover">
+                <img src="/img/collections/main_paleontologie.jpg" alt="Collection Paléontologie" class="w-full h-48 object-cover">
                 <div class="p-4">
-                    <h3 class="text-xl font-semibold mb-2">Art Contemporain</h3>
-                    <p class="mb-2">Explorez notre collection d'art contemporain.</p>
-                    <a href="collections.html" class="text-blue-600 hover:underline">Voir la collection</a>
+                    <h3 class="text-xl font-semibold mb-2">Paléontologie</h3>
+                    <p class="mb-2">Découvrez notre fascinante collection de fossiles de dinosaures.</p>
+                    <a href="collections.html#paleo" class="text-blue-600 hover:underline">Voir la collection</a>
                 </div>
             </div>
-            <!-- Ajoutez d'autres aperçus de collections ici -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/img/collections/main_art_moderne.jpg" alt="Collection Art Moderne" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Art Moderne</h3>
+                    <p class="mb-2">Explorez les œuvres révolutionnaires du début du 20e siècle.</p>
+                    <a href="collections.html#modern" class="text-blue-600 hover:underline">Voir la collection</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/img/collections/main_egypte_ancienne.png" alt="Collection Égypte Ancienne" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Égypte Ancienne</h3>
+                    <p class="mb-2">Plongez dans l'histoire fascinante de l'Égypte antique.</p>
+                    <a href="collections.html#egypt" class="text-blue-600 hover:underline">Voir la collection</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/img/collections/main_photographie.jpg" alt="Collection Photographie" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Photographie</h3>
+                    <p class="mb-2">Admirez notre collection de photographies historiques et contemporaines.</p>
+                    <a href="collections.html#photo" class="text-blue-600 hover:underline">Voir la collection</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/img/collections/main_numerique.jpg" alt="Collection Art Numérique" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Art Numérique</h3>
+                    <p class="mb-2">Découvrez les créations innovantes de l'ère numérique.</p>
+                    <a href="collections.html#digital" class="text-blue-600 hover:underline">Voir la collection</a>
+                </div>
+            </div>
         </div>
     </section>
+
 </main>
 
 <footer class="bg-blue-600 text-white mt-12">
