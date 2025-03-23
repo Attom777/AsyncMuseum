@@ -14,17 +14,20 @@ AsyncMuseum est conçu pour être responsive, s'adaptant parfaitement aux diffé
 
 ## 🎯 Fonctionnalités
 
-- **Galerie Virtuelle** : Explorez les œuvres d'art en ligne avec une visite interactive.
-- **Billetterie en Ligne** : Achetez vos billets directement depuis le site.
-- **Multilingue** : Option pour changer la langue du site (français/anglais par exemple).
+- **Galerie Virtuelle** : Explorez les collections du musée en ligne avec des descriptions détaillées.
+- **Billetterie en Ligne** : Réservez et achetez vos billets directement depuis le site.
 - **Espace Utilisateur** : Création de comptes pour acheter des billets ou accéder à des contenus exclusifs.
+- **Informations Pratiques** : Horaires d'ouverture, tarifs, et informations sur l'accès au musée.
 
 ## 📊 Technologies Utilisées
 
-- **Front-end** : HTML5, CSS3
-- **Back-end** : Php (Framework Laravel)
-- **Base de Données** : MySQL.
+- **Front-end** : HTML5, CSS3 (Tailwind CSS)
+- **Base de Données** : Non implémentée actuellement
+
+## 📅 Date de dernière mise à jour
+
+23 mars 2025
 
 ## 📺 Démo
 
-[Voir la démo]()
+[Voir la démo](https://attom777.github.io/AsyncMuseum/)
