@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsyncMuseum - Visites</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+<header class="bg-blue-600 text-white shadow-lg">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="index.html" class="flex items-center">
+            <img src="/img/logo.png" alt="AsyncMuseum Logo" class="h-10 w-auto mr-3">
+            <span class="text-2xl font-bold">AsyncMuseum</span>
+        </a>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="index.html" class="hover:text-blue-200 transition">Accueil</a></li>
+            <li><a href="collections.html" class="hover:text-blue-200 transition">Collections</a></li>
+            <li><a href="visites.html" class="hover:text-blue-200 transition">Visites</a></li>
+            <li><a href="billetterie.html" class="hover:text-blue-200 transition">Billetterie</a></li>
+            <li><a href="contact.html" class="hover:text-blue-200 transition">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container mx-auto mt-8 px-4">
+    <h1 class="text-4xl font-bold mb-8 text-center">Planifiez votre visite</h1>
+
+    <!-- Section Horaires -->
+    <section id="horaires" class="mb-12">
+        <h2 class="text-3xl font-bold mb-4 text-blue-600">Horaires d'ouverture</h2>
+        <p class="text-lg mb-2">Le musée est ouvert aux horaires suivants :</p>
+        <ul class="list-disc list-inside text-gray-700">
+            <li>Du mardi au dimanche : 10h00 - 18h00</li>
+            <li>Fermé le lundi et les jours fériés.</li>
+        </ul>
+    </section>
+
+    <!-- Section Tarifs -->
+    <section id="tarifs" class="mb-12">
+        <h2 class="text-3xl font-bold mb-4 text-green-600">Tarifs</h2>
+        <p class="text-lg mb-2">Découvrez nos tarifs :</p>
+        <ul class="list-disc list-inside text-gray-700">
+            <li>Adulte : 15€</li>
+            <li>Enfant (5 à 17 ans) : 8€</li>
+            <li>Étudiant : 10€ (sur présentation d'une carte étudiant valide)</li>
+            <li>Senior (65+) : 12€</li>
+            <li>Gratuit pour les enfants de moins de 5 ans.</li>
+        </ul>
+    </section>
+
+    <!-- Section Accès -->
+    <section id="acces" class="mb-12">
+        <h2 class="text-3xl font-bold mb-4 text-yellow-600">Accès au musée</h2>
+        <p class="text-lg mb-4">Le musée AsyncMuseum est situé au cœur de Paris :</p>
+        <p><strong>Adresse :</strong> 123 Rue du Musée, 75001 Paris.</p>
+
+        <!-- Carte ou image d'accès -->
+        <div class="mt-4">
+            <img src="/img/map.png" alt="Carte du musée" class="w-full h-auto rounded shadow-md">
+        </div>
+
+        <!-- Transports -->
+        <div class="mt-6">
+            <h3 class="text-xl font-semibold mb-2">Transports en commun :</h3>
+            <ul class="list-disc list-inside text-gray-700">
+                <li>Métro : Ligne 1, Station "Musée"</li>
+                <li>Bus : Lignes 21, 27, 38, Arrêt "Rue du Musée"</li>
+                <li>RER : Ligne A, Station "Châtelet-Les Halles"</li>
+            </ul>
+        </div>
+
+        <!-- Parking -->
+        <div class="mt-6">
+            <h3 class="text-xl font-semibold mb-2">Parking :</h3>
+            <p>Un parking est disponible à proximité (payant).</p>
+        </div>
+    </section>
+
+    <!-- Section Réservation -->
+    <section id="reservation" class="mb-12 text-center">
+        <h2 class="text-3xl font-bold mb-4 text-red-600">Réservez votre visite</h2>
+        <p class="text-lg mb-6">Planifiez votre visite dès maintenant en réservant vos billets en ligne.</p>
+        <a href="billetterie.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+            Réserver une visite
+        </a>
+    </section>
+
+</main>
+
+<footer class="bg-blue-600 text-white mt-auto py-8 px-auto text-center shadow-lg">
+    &copy; 2025 AsyncMuseum. Tous droits réservés.
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

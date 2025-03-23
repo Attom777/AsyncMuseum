@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsyncMuseum - Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-100 font-sans">
+<header class="bg-blue-600 text-white shadow-lg">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="index.html" class="flex items-center">
+            <img src="/img/logo.png" alt="AsyncMuseum Logo" class="h-10 w-auto mr-3">
+            <span class="text-2xl font-bold">AsyncMuseum</span>
+        </a>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="index.html" class="hover:text-blue-200 transition">Accueil</a></li>
+            <li><a href="/collections.html" class="hover:text-blue-200 transition">Collections</a></li>
+            <li><a href="/visites.html" class="hover:text-blue-200 transition">Visites</a></li>
+            <li><a href="/billetterie.html" class="hover:text-blue-200 transition">Billetterie</a></li>
+            <li><a href="/contact.html" class="hover:text-blue-200 transition">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
+<main class="container mx-auto mt-8 px-4">
+    <h1 class="text-4xl font-bold mb-8 text-center">Contactez-nous</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white shadow-md rounded p-6">
+            <h2 class="text-2xl font-bold mb-4">Informations de contact</h2>
+            <p>123 Rue du Musée, 75001 Paris</p>
+            <p>Tél : 01 23 45 67 89</p>
+            <p>Email : <a href="mailto:contact@asyncmuseum.com" class="text-blue-600 hover:underline">contact@asyncmuseum.com</a></p>
+        </div>
+        <form class="bg-white shadow-md rounded p-6">
+            <h2 class="text-2xl font-bold mb-4">Formulaire de contact</h2>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Nom
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                    Email
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" required>
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                    Message
+                </label>
+                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="4" required></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                    Envoyer
+                </button>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer class="bg-blue-600 text-white mt-12 py-8">
+    <div class="container mx-auto px-4">
+        <p class="text-center">&copy; 2025 AsyncMuseum. Tous droits réservés.</p>
+    </div>
+</footer>
+
+<script src="/js/main.js"></script>
 </body>
 </html>
